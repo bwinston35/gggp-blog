@@ -1,0 +1,9 @@
+# Site settings
+title: Working with Jekyll
+author:
+  name: Bryan Winston
+  email: bwinston35@gmail.com
+description: "Great site about Jekyll on GH-Pages."
+
+# Build settings
+remote_theme: jekyll/minima
