@@ -1,9 +1,13 @@
 ---
-layout: page
+layout: dark
 title: About
+example: Example text in this variable.
 ---
 
-I'm completing multiple tutorials on Jekyll and static sites to improve my teaching and knowledge of static site generation.
+This page describes the amazing {{ site.title }} by {{ site.author.name }}. I'm completing multiple tutorials on Jekyll and static sites to improve my teaching and knowledge of static site generation.
+{{ page.example }}
+
+{% include big-cat.html $}
 
 ## About About Pages
 
